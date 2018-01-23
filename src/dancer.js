@@ -35,7 +35,6 @@ makeDancer.prototype.hue = function() {
 };
 
 makeDancer.prototype.lineUp = function() {
-  console.log('hello world');
   var styleSettings = {
     position: 'absolute',
     left: '0px',

@@ -9,7 +9,6 @@ pigDancer.prototype = Object.create(makeDancer.prototype);
 pigDancer.prototype.constructor = pigDancer;
 
 pigDancer.prototype.lineUp = function() {
-  console.log('hello world');
   var styleSettings = {
     position: 'absolute',
     left: '275px',

@@ -10,7 +10,6 @@ chickenDancer.prototype = Object.create(makeDancer.prototype);
 chickenDancer.prototype.constructor = chickenDancer;
 
 chickenDancer.prototype.lineUp = function() {
-  console.log('hello world');
   var styleSettings = {
     position: 'absolute',
     left: '150px',
