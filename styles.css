@@ -25,3 +25,16 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+body{
+ background-image: url("images/background.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+ }
+ .addCowButton{
+  padding:5px 12px;
+  float:right;
+ }
+.cow{
+  height: 300px;
+  width: 300px;
+}

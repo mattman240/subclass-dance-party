@@ -1,6 +1,5 @@
-var pigDancer = function(top, left, timeBetweenSteps) {
-  // var blinkyDancer = makeDancer(top, left, timeBetweenSteps);
-  makeDancer.call(this, top, left, timeBetweenSteps);
+var pigDancer = function() {
+  makeDancer.call(this);
   this.$node = $('<img class="pigDancer" src="images/twerkyboi.gif"></img>');
 
 };
