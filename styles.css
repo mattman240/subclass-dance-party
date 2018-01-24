@@ -65,6 +65,15 @@ body{
   position:absolute;
 
 }
+.farmer{
+  height: 150px;
+  width: 150px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("images/farmer.gif");
+  position:absolute;
+
+}
 .tnt{
   height: 1000px;
   width: 1000px;
