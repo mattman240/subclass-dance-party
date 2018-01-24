@@ -31,4 +31,18 @@ describe('blinkyDancer', function() {
       expect(blinkyDancer.step.callCount).to.be.equal(2);
     });
   });
+
+  describe('Rotate', function() {
+    it('should randomly rotate the element', function() {
+      blinkyDancer.rotate();
+      expect(blinkyDancer.rotate()).to.be.equal();
+    });
+  });
+
+  describe('Hue', function() {
+    it('should randomize the hue of the element', function() {
+      blinkyDancer.hue();
+      expect(blinkyDancer.hue()).to.be.equal();
+    });
+  });
 });
